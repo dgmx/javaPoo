@@ -9,18 +9,10 @@ public class SmartPhone extends SmartDevice{
 
     }
     public SmartPhone(String os, String osVersion, String fabricante, String model,
-                      double peso, double pantalla, String procesador, int memoria, boolean phone, String opeardor) {
+                      double peso, double pantalla, String procesador, int memoria, boolean phone, String operador) {
 
+        super(os, osVersion, fabricante, model, peso, pantalla, procesador, memoria);
         this.phone = phone;
-        this.operador = opeardor;
-
-        super.os = os;
-        super.osVersion = osVersion;
-        super.fabricante = fabricante;
-        super.model = model;
-        super.peso = peso;
-        super.pantalla = pantalla;
-        super.procesador = procesador;
-        super.memoria = memoria;
+        this.operador = operador;
     }
 }

@@ -12,7 +12,7 @@ public class Main {
         // Describimos los atributos del telefono movil
         System.out.println("Tu dispositivo es un:");
         System.out.println(iphone.fabricante + " " + iphone.model + " " + iphone.os + " " + iphone.osVersion);
-        System.out.print("Es un reloj inteligentel? ");
+        System.out.print("Es un reloj inteligente? ");
         if (iphone.phone) {
             System.out.print("SI");
         }
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Tu dispositivo es un:");
         System.out.println(iwatch.fabricante + " " + iwatch.model + " " + iwatch.os + " " + iwatch.osVersion);
         System.out.println("Tu operador de telefonia es: " + iphone.operador);
-        System.out.print("Es un reloj inteligentel? ");
+        System.out.print("Es un reloj inteligente? ");
         if (iwatch.watch) {
             System.out.print("SI");
         }

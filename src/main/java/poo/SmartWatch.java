@@ -12,16 +12,8 @@ public class SmartWatch extends SmartDevice{
     public SmartWatch(String os, String osVersion, String fabricante, String model,
                       double peso, double pantalla, String procesador, int memoria, boolean watch, String correa) {
 
-        this.watch=watch;
-        this.correa=correa;
-
-        super.os = os;
-        super.osVersion = osVersion;
-        super.fabricante = fabricante;
-        super.model = model;
-        super.peso = peso;
-        super.pantalla = pantalla;
-        super.procesador = procesador;
-        super.memoria = memoria;
+        super(os, osVersion, fabricante, model, peso, pantalla, procesador, memoria);
+        this.watch = watch;
+        this.correa = correa;
     }
 }
